@@ -12,10 +12,11 @@
 }
 
 .title {
-  padding: 5px;
   height: 15%;
   width: 15%;
   margin: 20px 40px;
+  display: flex;
+  justify-content: center;
   color: aliceblue;
   font-size: larger;
   background-color: rgb(72, 72, 155);
@@ -29,4 +30,10 @@
   justify-content: center;
   align-items: center;
   font-size: x-large;
+}
+
+.explanation {
+  margin: 10px 40px;
+  color: aliceblue;
+  font-size: large;
 }
