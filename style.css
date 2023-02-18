@@ -20,11 +20,12 @@
   flex-direction: column;
 }
 
-.title {
-  padding: 5px;
+.field {
   height: 15%;
   width: 15%;
   margin: 20px 40px;
+  display: flex;
+  justify-content: center;
   color: aliceblue;
   font-size: larger;
   background-color: rgb(72, 72, 155);
@@ -38,4 +39,40 @@
   justify-content: center;
   align-items: center;
   font-size: x-large;
+}
+
+.explanation {
+  margin: 20px 40px;
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#pink {
+  background-color: palevioletred;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
 }
