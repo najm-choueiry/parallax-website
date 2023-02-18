@@ -1,3 +1,41 @@
-body{
-    background-color: gray;
+
+
+/* home style */
+
+/* part1 style */
+/* part2 style */
+
+
+/* part3 style */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding: 5px;
+  height: 15%;
+  width: 15%;
+  margin: 20px 40px;
+  color: aliceblue;
+  font-size: larger;
+  background-color: rgb(72, 72, 155);
+  border-radius: 20px;
+}
+
+.intro {
+  height: 15vh;
+  background-color: rgb(53, 193, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
 }
