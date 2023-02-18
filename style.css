@@ -1,3 +1,9 @@
+/* home style */
+
+/* part1 style */
+/* part2 style */
+
+/* part3 style */
 * {
   margin: 0;
   padding: 0;
@@ -14,12 +20,12 @@
 .field {
   height: 15%;
   width: 15%;
-  margin: 20px 40px;
+  margin: 20px 0px;
   display: flex;
   justify-content: center;
   color: aliceblue;
   font-size: larger;
-  background-color: rgb(72, 72, 155);
+  background-color: rgb(0, 0, 0);
   border-radius: 20px;
 }
 
@@ -39,90 +45,3 @@
   color: rgb(255, 255, 255);
   font-size: large;
 }
-.parallax_wrapper{
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 300px;
-}
-.first-screen{
-  height: 100vh;
-  color: tomato;
-  background-image: url("https://images.unsplash.com/photo-1591115306246-75cc0d49a96a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRlYmF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0;
-  font-size: 50px;
-}
-
-.par1-1{
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-  z-index: -1;
-  font-size: 50px;
-  color: tomato;
-
-}
-.par1-2{
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-  font-size: 50px;
-  color: tomato;
-
-}
-.parallax_layer{
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-
-}
-.base1-1 {
-  
-  transform: translateZ(-300px) scale(2);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/777/522/459/chess-artificial-intelligence-human-intelligence-wallpaper-preview.jpg");
-}
-.mid1-1{
-  transform: translateZ(0);
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.mid1-2{
-  transform: translateZ(0);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("https://media.istockphoto.com/id/1206796363/photo/ai-machine-learning-hands-of-robot-and-human-touching-on-big-data-network-connection.jpg?s=612x612&w=0&k=20&c=xIX5Bz7h50B83cCZG_gXkyZSOu-mG93DtOcNK7RNEAo=")
-
-}
-.top1-2{
-  transform: translateZ(210px) scale(0.3);
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
