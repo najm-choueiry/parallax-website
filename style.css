@@ -21,3 +21,12 @@
   background-color: rgb(72, 72, 155);
   border-radius: 20px;
 }
+
+.intro {
+  height: 15vh;
+  background-color: rgb(53, 193, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
