@@ -77,18 +77,6 @@
   transform-style: preserve-3d;
   font-size: 60px;
   color: tomato;
-  
-
-
-}
-.parallax_layer{
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-
 }
 .base1-1 {
   
@@ -131,4 +119,51 @@
   justify-content: center;
   align-items: center;
 }
+.par1{
+  min-height: 500px; 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-microprocessor-on-motherboard-computer-circuit.jpg?b=1&s=170667a&w=0&k=20&c=YFnjN-b1UL3NMC1_v-yuYG4UDux_4PISOmEvBePtM8A=") ;
+
+}
+.div1{
+  background-color:rgb(180, 165, 165);
+  font-size:25px;
+  color: black;
+  line-height: 50px;
+}
+.par2{
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://media.istockphoto.com/id/1146417905/photo/young-femal-e-engineer-concept-gui.jpg?s=612x612&w=0&k=20&c=JhRGfu_gT2fus3NBtulp7q69iquMv0ECaKGfv1DVjaE=");    
+}
+.div2{
+  background-color:rgb(180, 165, 165);
+  font-size:25px;
+  color: black;
+  line-height: 50px;
+}
+.par3{
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://media.tenor.com/DDSiJzK-VhAAAAAC/artificial-intelligence-ai.gif")
+}
+
 
