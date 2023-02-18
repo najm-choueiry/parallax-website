@@ -1,10 +1,7 @@
-
-
 /* home style */
 
 /* part1 style */
 /* part2 style */
-
 
 /* part3 style */
 * {
@@ -54,11 +51,11 @@
 }
 
 #yellow {
-  background-color: yellow;
+  background-color: rgb(156, 156, 7);
 }
 
 #pink {
-  background-color: palevioletred;
+  background-color: rgb(223, 52, 109);
 }
 
 #purple {
