@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: gray;
+.page {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
 }
