@@ -1,11 +1,12 @@
 
 
-/* -----------------------home style ------------------*/
+/* home style */
+
+/* part1 style */
+/* part2 style */
 
 
-
-/* -----------------------part1 style ------------------*/
-
+/* part3 style */
 * {
   margin: 0;
   padding: 0;
@@ -75,24 +76,3 @@
 #blue {
   background-color: blue;
 }
-/* -----------------------part2 style ------------------*/
-.header{
-    background-color: rgb(123, 46, 123);
-    color: wheat;
-}
-.Gamming{
-    background-color: rgb(123, 30, 123);
-    color: wheat;
-}
-.Medical{
-    background-color: rgb(118, 20, 118);
-    color: wheat;
-}
-.Transcriting{
-    background-color: rgb(119, 11, 119);
-    color: wheat;
-}
-.title{
-    color: black;
-}
-/* --------------part3 style ----------------------*/
