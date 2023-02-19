@@ -1,17 +1,25 @@
-.header{
-    background-color: aqua;
+@font-face {
+  font-family: all;
+  src: url(./print-clearly/print_clearly_tt.ttf);
 }
-.title{
-    background-color: lightpink;
-}
-.Gamming{
-    background-color: violet;
-}
-.Medical{
-    background-color:blueviolet;  
-}
-.Transcriting{
-    background-color:rgb(131, 29, 227);  
 
+body {
+  font-family: all;
+  font-weight: bold;
+}
 
+.header {
+  background-color: aqua;
+}
+.title {
+  background-color: lightpink;
+}
+.Gamming {
+  background-color: violet;
+}
+.Medical {
+  background-color: blueviolet;
+}
+.Transcriting {
+  background-color: rgb(131, 29, 227);
 }
