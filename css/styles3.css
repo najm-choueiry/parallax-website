@@ -1,2 +1,46 @@
 /* CSS reset */
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
 
+
+.title {
+   background-image: url(https://www.tech.gov.sg/images/technews/not-an-ai-expert-no-problem-part-1.png) ;
+   height: 600px; 
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.title h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 233px;
+    padding-left: 42px;
+}
+
+.body {
+    margin-top: 50px;
+}
+
+
+.body1 {
+    border-radius:12px; 
+    background-color: silver;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 150px;
+    margin-bottom: 30px;
+
+}
+
+.body1 p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 65px;
+}
