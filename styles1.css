@@ -14,7 +14,7 @@
 
 .first-screen {
   height: 100vh;
-  color: tomato;
+  color: rgb(255, 255, 255);
   background-image: url("https://images.unsplash.com/photo-1591115306246-75cc0d49a96a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRlYmF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
   display: flex;
   justify-content: center;
@@ -33,14 +33,14 @@
   transform-style: preserve-3d;
   z-index: -1;
   font-size: 60px;
-  color: tomato;
+  color: rgb(255, 255, 255);
 }
 .par1-2 {
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
   font-size: 60px;
-  color: tomato;
+  color: rgb(255, 255, 255);
 }
 .base1-1 {
   transform: translateZ(-300px) scale(2);
@@ -85,7 +85,7 @@
   align-items: center;
 }
 .par1 {
-  color: tomato;
+  color: rgb(255, 255, 255);
   font-size: 60px;
   min-height: 500px;
   background-attachment: fixed;
@@ -106,7 +106,7 @@
   line-height: 50px;
 }
 .par2 {
-  color: tomato;
+  color: rgb(255, 255, 255);
   font-size: 60px;
   min-height: 500px;
   background-attachment: fixed;
