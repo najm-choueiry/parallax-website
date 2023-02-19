@@ -14,18 +14,20 @@
 .field {
   height: 15%;
   width: 15%;
-  margin: 20px 40px;
+  margin: 20px 0px;
   display: flex;
   justify-content: center;
   color: aliceblue;
   font-size: larger;
-  background-color: rgb(72, 72, 155);
+  background-color: rgb(43, 164, 180);
   border-radius: 20px;
 }
 
 .intro {
   height: 15vh;
-  background-color: rgb(53, 193, 212);
+  background-image: url(https://easyfairsassets.com/sites/148/2022/11/cropped-6.png);
+  mix-blend-mode: multiply;
+  background-color: rgb(43, 42, 42);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,4 +304,3 @@
   font-size: 35px;
   color: white;
 }
-
