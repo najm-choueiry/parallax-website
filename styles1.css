@@ -136,7 +136,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://media1.giphy.com/media/8hYQgBIIHkCPjRTmai/200w.webp?cid=ecf05e47fvgknkwil094akbhkarg5ohy27yt9ioinhrewsc9&rid=200w.webp&ct=g");
+  background-image: url(https://exchange.telstra.com.au/wp-content/uploads/2017/08/AI_Circuit_Brain_Loop_2.gif);
 }
 .par4 {
   min-height: 500px;
@@ -279,4 +279,9 @@
   background-color: black;
   font-size: 35px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
 }
