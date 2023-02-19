@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-
-
-/* home style */
-
-/* part1 style */
-/* part2 style */
-
-
-/* part3 style */
-=======
->>>>>>> 7320017fc3bdcba89327533ed5947e711c2d4bb0
 * {
   margin: 0;
   padding: 0;
@@ -58,35 +46,6 @@
   perspective: 300px;
 }
 
-<<<<<<< HEAD
-#red {
-  background-color: red;
-}
-
-#yellow {
-  background-color: yellow;
-}
-
-#pink {
-  background-color: palevioletred;
-}
-
-#purple {
-  background-color: purple;
-}
-
-#orange {
-  background-color: orange;
-}
-
-#green {
-  background-color: green;
-}
-
-#blue {
-  background-color: blue;
-}
-=======
 .first-screen{
   height: 100vh;
   color: tomato;
@@ -354,4 +313,3 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   color: white;
 }
 
->>>>>>> 7320017fc3bdcba89327533ed5947e711c2d4bb0
