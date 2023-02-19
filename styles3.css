@@ -5,6 +5,11 @@
     margin: 0px;
 }
 
+.main_container {
+    background-image:url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-attachment: fixed;
+    height: fit-content;
+}
 
 .title {
    background-image: url(https://www.tech.gov.sg/images/technews/not-an-ai-expert-no-problem-part-1.png) ;
@@ -23,9 +28,11 @@
     padding-left: 42px;
 }
 
-
 .body {
     margin-top: 50px;
+    perspective: 300px;
+    z-index: 0;
+
 }
 
 
@@ -36,7 +43,7 @@
     margin-right: 40px;
     height: 150px;
     margin-bottom: 30px;
-
+    transform-style: preserve-3d;
 }
 
 .body1 p {
@@ -45,3 +52,38 @@
     text-align: center;
     padding-top: 65px;
 }
+
+.body1 img {
+    height: 700px;
+    padding-top: 200px;
+    margin-left: 388px;
+
+}
+
+
+/* 
+.body2 {
+    margin-top: 400px;
+    border-radius:12px; 
+    background-color: silver;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 150px;
+    margin-bottom: 30px;
+    transform-style: preserve-3d;
+}
+
+
+.body2 p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.body2 img {
+    height: 700px;
+    padding-top: 200px;
+    margin-left: 388px;
+
+} */
