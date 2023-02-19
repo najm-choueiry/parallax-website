@@ -44,6 +44,7 @@
     height: 150px;
     margin-bottom: 30px;
     transform-style: preserve-3d;
+    transform: translateZ(0); 
 }
 
 .body1 p {
@@ -53,17 +54,26 @@
     padding-top: 65px;
 }
 
-.body1 img {
-    height: 700px;
-    padding-top: 200px;
-    margin-left: 388px;
 
+
+.part-1 {
+
+    position:absolute;
+    inset:0; 
+    position:relative; 
+    transform-style:preserve-3d;
+    height:100vh;
+}
+
+.separator {
+    position: relative;
+    left: 325px; 
+    margin-bottom: 100px;
 }
 
 
-/* 
+ 
 .body2 {
-    margin-top: 400px;
     border-radius:12px; 
     background-color: silver;
     margin-left: 40px;
@@ -71,6 +81,7 @@
     height: 150px;
     margin-bottom: 30px;
     transform-style: preserve-3d;
+
 }
 
 
@@ -80,10 +91,3 @@
     text-align: center;
     padding-top: 65px;
 }
-
-.body2 img {
-    height: 700px;
-    padding-top: 200px;
-    margin-left: 388px;
-
-} */
