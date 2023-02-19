@@ -14,7 +14,7 @@
 
 .first-screen {
   height: 100vh;
-  color: tomato;
+  color: rgb(255, 255, 255);
   background-image: url("https://images.unsplash.com/photo-1591115306246-75cc0d49a96a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRlYmF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
   display: flex;
   justify-content: center;
@@ -23,6 +23,8 @@
   background-size: cover;
   z-index: 0;
   font-size: 60px;
+  background-blend-mode: multiply;
+  background-color: rgb(119, 119, 119);
 }
 
 .par1-1 {
@@ -31,14 +33,14 @@
   transform-style: preserve-3d;
   z-index: -1;
   font-size: 60px;
-  color: tomato;
+  color: rgb(255, 255, 255);
 }
 .par1-2 {
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
   font-size: 60px;
-  color: tomato;
+  color: rgb(255, 255, 255);
 }
 .base1-1 {
   transform: translateZ(-300px) scale(2);
@@ -50,6 +52,8 @@
   justify-content: center;
   align-items: center;
   background-image: url("https://c4.wallpaperflare.com/wallpaper/777/522/459/chess-artificial-intelligence-human-intelligence-wallpaper-preview.jpg");
+  background-blend-mode: multiply;
+  background-color: rgb(119, 119, 119);
 }
 .mid1-1 {
   transform: translateZ(0);
@@ -69,6 +73,8 @@
   justify-content: center;
   align-items: center;
   background-image: url("https://media.istockphoto.com/id/1206796363/photo/ai-machine-learning-hands-of-robot-and-human-touching-on-big-data-network-connection.jpg?s=612x612&w=0&k=20&c=xIX5Bz7h50B83cCZG_gXkyZSOu-mG93DtOcNK7RNEAo=");
+  background-blend-mode: multiply;
+  background-color: rgb(119, 119, 119);
 }
 .top1-2 {
   transform: translateZ(210px) scale(0.3);
@@ -79,7 +85,7 @@
   align-items: center;
 }
 .par1 {
-  color: tomato;
+  color: rgb(255, 255, 255);
   font-size: 60px;
   min-height: 500px;
   background-attachment: fixed;
@@ -91,7 +97,7 @@
   align-items: center;
   background-image: url("https://media.istockphoto.com/id/1345658982/photo/ai-microprocessor-on-motherboard-computer-circuit.jpg?b=1&s=170667a&w=0&k=20&c=YFnjN-b1UL3NMC1_v-yuYG4UDux_4PISOmEvBePtM8A=");
   background-blend-mode: multiply;
-  background-color: rgb(85, 85, 85);
+  background-color: rgb(119, 119, 119);
 }
 .div1 {
   background-color: black;
@@ -100,7 +106,7 @@
   line-height: 50px;
 }
 .par2 {
-  color: tomato;
+  color: rgb(255, 255, 255);
   font-size: 60px;
   min-height: 500px;
   background-attachment: fixed;
@@ -112,7 +118,7 @@
   align-items: center;
   background-image: url("https://media.istockphoto.com/id/1146417905/photo/young-femal-e-engineer-concept-gui.jpg?s=612x612&w=0&k=20&c=JhRGfu_gT2fus3NBtulp7q69iquMv0ECaKGfv1DVjaE=");
   background-blend-mode: multiply;
-  background-color: rgb(85, 85, 85);
+  background-color: rgb(119, 119, 119);
 }
 .div2 {
   background-color: black;
@@ -212,6 +218,8 @@
   justify-content: center;
   align-items: center;
   background-image: url("https://as2.ftcdn.net/v2/jpg/05/26/67/87/1000_F_526678755_NHDJS8BJIckVRdRioVnIt9efTWscNMlB.jpg");
+  background-blend-mode: multiply;
+  background-color: rgb(119, 119, 119);
 }
 .par6 {
   font-size: 50px;
