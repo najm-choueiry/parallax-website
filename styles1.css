@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: all;
+  src: url(./print-clearly/print_clearly_tt.ttf);
+}
+
+body {
+  font-family: all;
+  font-weight: bold;
+}
+
 .wrapper {
   height: 100vh;
   overflow-x: hidden;
@@ -24,7 +34,7 @@
   z-index: 0;
   font-size: 60px;
   background-blend-mode: multiply;
-  background-color: rgb(119, 119, 119);
+  background-color: rgb(90, 90, 90);
 }
 
 .par1-1 {
@@ -53,7 +63,7 @@
   align-items: center;
   background-image: url("https://c4.wallpaperflare.com/wallpaper/777/522/459/chess-artificial-intelligence-human-intelligence-wallpaper-preview.jpg");
   background-blend-mode: multiply;
-  background-color: rgb(119, 119, 119);
+  background-color: rgb(90, 90, 90);
 }
 .mid1-1 {
   transform: translateZ(0);
@@ -74,7 +84,7 @@
   align-items: center;
   background-image: url("https://media.istockphoto.com/id/1206796363/photo/ai-machine-learning-hands-of-robot-and-human-touching-on-big-data-network-connection.jpg?s=612x612&w=0&k=20&c=xIX5Bz7h50B83cCZG_gXkyZSOu-mG93DtOcNK7RNEAo=");
   background-blend-mode: multiply;
-  background-color: rgb(119, 119, 119);
+  background-color: rgb(90, 90, 90);
 }
 .top1-2 {
   transform: translateZ(210px) scale(0.3);
@@ -97,11 +107,11 @@
   align-items: center;
   background-image: url("https://media.istockphoto.com/id/1345658982/photo/ai-microprocessor-on-motherboard-computer-circuit.jpg?b=1&s=170667a&w=0&k=20&c=YFnjN-b1UL3NMC1_v-yuYG4UDux_4PISOmEvBePtM8A=");
   background-blend-mode: multiply;
-  background-color: rgb(119, 119, 119);
+  background-color: rgb(90, 90, 90);
 }
 .div1 {
   background-color: black;
-  font-size: 25px;
+  font-size: 40px;
   color: whitesmoke;
   line-height: 50px;
 }
@@ -118,11 +128,11 @@
   align-items: center;
   background-image: url("https://media.istockphoto.com/id/1146417905/photo/young-femal-e-engineer-concept-gui.jpg?s=612x612&w=0&k=20&c=JhRGfu_gT2fus3NBtulp7q69iquMv0ECaKGfv1DVjaE=");
   background-blend-mode: multiply;
-  background-color: rgb(119, 119, 119);
+  background-color: rgb(90, 90, 90);
 }
 .div2 {
   background-color: black;
-  font-size: 25px;
+  font-size: 40px;
   color: whitesmoke;
   line-height: 50px;
 }
@@ -217,9 +227,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/05/26/67/87/1000_F_526678755_NHDJS8BJIckVRdRioVnIt9efTWscNMlB.jpg");
-  background-blend-mode: multiply;
-  background-color: rgb(119, 119, 119);
+  background-image: url("https://cdn.dribbble.com/users/1046263/screenshots/11319113/media/7d3ce89b03a775a8b45dc8421bdeb59f.gif");
 }
 .par6 {
   font-size: 50px;
