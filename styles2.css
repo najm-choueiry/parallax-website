@@ -85,3 +85,30 @@ body {
   background-color: rgb(0, 0, 0);
   color: aliceblue;
 }
+
+.field {
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  /* color: rgb(0, 0, 0); */
+  font-size: larger;
+  /* background-color: rgb(0, 0, 0); */
+  border-radius: 20px;
+}
+
+.intro {
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://easyfairsassets.com/sites/148/2022/11/cropped-6-300x169.png);
+  background-blend-mode: multiply;
+  background-color: rgb(136, 136, 136);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: aliceblue;
+}
