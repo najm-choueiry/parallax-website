@@ -8,18 +8,79 @@ body {
   font-weight: bold;
 }
 
-.header {
-  background-color: aqua;
-}
-.title {
-  background-color: lightpink;
-}
-.Gamming {
-  background-color: violet;
-}
-.Medical {
-  background-color: blueviolet;
-}
-.Transcriting {
-  background-color: rgb(131, 29, 227);
-}
+* {
+    margin: 0;
+    padding: 0;
+ 
+  }
+  .body{
+    text-align: center;
+  }
+  .wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 300px;
+  }
+  
+  .move1 {
+    height: 100vh;
+    color: rgb(56, 53, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    font-size: 60px;
+  }
+  
+  .totaldiv {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+    font-size: 60px;
+    color: rgb(85, 145, 130);
+    background-color: aquamarine;
+  }
+ 
+  .middel {
+    transform: translateZ(0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(54, 51, 51);
+  }
+  .topup {
+    transform: translateZ(210px) scale(0.3);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    background-color: rgb(58, 56, 56);
+    font-size: 35px;
+    color: rgb(241, 230, 230);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  h3{
+    display:fixed;
+    text-align: center;
+  }
+  .title{
+    text-align: center;
+  }
+  .Chatgpt{
+    color: rgba(242, 213, 176, 0.609);
+  }
+  
