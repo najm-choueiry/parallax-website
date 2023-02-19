@@ -38,15 +38,15 @@
   border-radius: 20px;
   color: rgb(255, 255, 255);
   font-size: large;
-}  
-.parallax_wrapper{
+}
+.parallax_wrapper {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 300px;
 }
 
-.first-screen{
+.first-screen {
   height: 100vh;
   color: tomato;
   background-image: url("https://images.unsplash.com/photo-1591115306246-75cc0d49a96a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRlYmF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
@@ -59,16 +59,15 @@
   font-size: 60px;
 }
 
-.par1-1{
+.par1-1 {
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
   z-index: -1;
   font-size: 60px;
   color: tomato;
-
 }
-.par1-2{
+.par1-2 {
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
@@ -76,7 +75,6 @@
   color: tomato;
 }
 .base1-1 {
-  
   transform: translateZ(-300px) scale(2);
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,16 +85,15 @@
   align-items: center;
   background-image: url("https://c4.wallpaperflare.com/wallpaper/777/522/459/chess-artificial-intelligence-human-intelligence-wallpaper-preview.jpg");
 }
-.mid1-1{
+.mid1-1 {
   transform: translateZ(0);
   position: absolute;
   inset: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.mid1-2{
+.mid1-2 {
   transform: translateZ(0);
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,10 +102,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://media.istockphoto.com/id/1206796363/photo/ai-machine-learning-hands-of-robot-and-human-touching-on-big-data-network-connection.jpg?s=612x612&w=0&k=20&c=xIX5Bz7h50B83cCZG_gXkyZSOu-mG93DtOcNK7RNEAo=")
-
+  background-image: url("https://media.istockphoto.com/id/1206796363/photo/ai-machine-learning-hands-of-robot-and-human-touching-on-big-data-network-connection.jpg?s=612x612&w=0&k=20&c=xIX5Bz7h50B83cCZG_gXkyZSOu-mG93DtOcNK7RNEAo=");
 }
-.top1-2{
+.top1-2 {
   transform: translateZ(210px) scale(0.3);
   position: absolute;
   inset: 0;
@@ -116,30 +112,10 @@
   justify-content: center;
   align-items: center;
 }
-.par1{
-  color: tomato;
-font-size: 60px;
-min-height: 500px; 
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-justify-content: center;
-align-items: center;
-background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-microprocessor-on-motherboard-computer-circuit.jpg?b=1&s=170667a&w=0&k=20&c=YFnjN-b1UL3NMC1_v-yuYG4UDux_4PISOmEvBePtM8A=") ;
-
-}
-.div1{
-  background-color:black;
-  font-size:25px;
-  color: whitesmoke;
-  line-height: 50px;
-}
-.par2{
+.par1 {
   color: tomato;
   font-size: 60px;
-  min-height: 500px; 
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -147,17 +123,18 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://media.istockphoto.com/id/1146417905/photo/young-femal-e-engineer-concept-gui.jpg?s=612x612&w=0&k=20&c=JhRGfu_gT2fus3NBtulp7q69iquMv0ECaKGfv1DVjaE=");    
+  background-image: url("https://media.istockphoto.com/id/1345658982/photo/ai-microprocessor-on-motherboard-computer-circuit.jpg?b=1&s=170667a&w=0&k=20&c=YFnjN-b1UL3NMC1_v-yuYG4UDux_4PISOmEvBePtM8A=");
 }
-.div2{
-  background-color:black;
-  font-size:25px;
+.div1 {
+  background-color: black;
+  font-size: 25px;
   color: whitesmoke;
   line-height: 50px;
 }
-.par3{
-  font-size: 50px;
-  min-height: 500px; 
+.par2 {
+  color: tomato;
+  font-size: 60px;
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -165,10 +142,28 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://media1.giphy.com/media/8hYQgBIIHkCPjRTmai/200w.webp?cid=ecf05e47fvgknkwil094akbhkarg5ohy27yt9ioinhrewsc9&rid=200w.webp&ct=g")
+  background-image: url("https://media.istockphoto.com/id/1146417905/photo/young-femal-e-engineer-concept-gui.jpg?s=612x612&w=0&k=20&c=JhRGfu_gT2fus3NBtulp7q69iquMv0ECaKGfv1DVjaE=");
 }
-.par4{
-  min-height: 500px; 
+.div2 {
+  background-color: black;
+  font-size: 25px;
+  color: whitesmoke;
+  line-height: 50px;
+}
+.par3 {
+  font-size: 50px;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://media1.giphy.com/media/8hYQgBIIHkCPjRTmai/200w.webp?cid=ecf05e47fvgknkwil094akbhkarg5ohy27yt9ioinhrewsc9&rid=200w.webp&ct=g");
+}
+.par4 {
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   display: flex;
@@ -177,33 +172,32 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   flex-direction: column;
   background-color: black;
 }
-.div4-1{
+.div4-1 {
   font-size: 30px;
-  margin-bottom: 50px ;
+  margin-bottom: 50px;
   color: whitesmoke;
   margin-left: 30px;
 }
-.div4-3{
+.div4-3 {
   margin-top: 50px;
   margin-left: 30px;
   font-size: 30px;
   color: whitesmoke;
 }
-.div4-2{
+.div4-2 {
   font-size: 60px;
   color: brown;
   font-weight: bolder;
 }
-.par2-1{
+.par2-1 {
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
   z-index: -1;
   font-size: 60px;
   color: whitesmoke;
-
 }
-.base2-1{
+.base2-1 {
   transform: translateZ(-300px) scale(2);
   background-repeat: no-repeat;
   background-size: cover;
@@ -214,17 +208,16 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   align-items: center;
   background-color: black;
 }
-.mid2-1{
+.mid2-1 {
   transform: translateZ(0);
   position: absolute;
   inset: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.div3{
-  min-height: 500px; 
+.div3 {
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   display: flex;
@@ -232,16 +225,15 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   align-items: center;
   flex-direction: column;
   background-color: black;
-  
 }
-.a-1{
+.a-1 {
   color: whitesmoke;
   text-align: center;
   font-size: 40px;
 }
-.par5{
+.par5 {
   font-size: 50px;
-  min-height: 500px; 
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -251,9 +243,9 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   align-items: center;
   background-image: url("https://as2.ftcdn.net/v2/jpg/05/26/67/87/1000_F_526678755_NHDJS8BJIckVRdRioVnIt9efTWscNMlB.jpg");
 }
-.par6{
+.par6 {
   font-size: 50px;
-  min-height: 500px; 
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -263,15 +255,14 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   align-items: center;
   background-image: url("https://media4.giphy.com/media/EDt1m8p5hqXG8/giphy.gif");
 }
-.w1{
+.w1 {
   color: red;
   font-weight: bolder;
   font-size: 40px;
 }
-.par8{
-
+.par8 {
   font-size: 50px;
-  min-height: 500px; 
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -281,8 +272,8 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   align-items: center;
   background-image: url("https://64.media.tumblr.com/24419657096476c5bbe0b75b0a2b1f4c/tumblr_inline_nl4u6fTSYw1sf8exp.gif");
 }
-.par7{
-  min-height: 300px; 
+.par7 {
+  min-height: 300px;
   background-attachment: fixed;
   background-position: center;
   display: flex;
@@ -294,10 +285,9 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   font-size: 50px;
   line-height: 70px;
 }
-.par9{
-
+.par9 {
   font-size: 50px;
-  min-height: 500px; 
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -307,7 +297,7 @@ background-image:url("https://media.istockphoto.com/id/1345658982/photo/ai-micro
   align-items: center;
   background-image: url("https://media.tenor.com/53zhDFlKE8gAAAAM/kabangu-upset.gif");
 }
-.div4{
+.div4 {
   background-color: black;
   font-size: 35px;
   color: white;
