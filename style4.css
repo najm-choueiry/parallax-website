@@ -2,30 +2,25 @@
   font-family: all;
   src: url(./print-clearly/print_clearly_tt.ttf);
 }
-
 body {
   font-family: all;
   font-weight: bold;
+  text-align: center;
 }
-
 * {
     margin: 0;
     padding: 0;
- 
-  }
-  .body{
-    text-align: center;
-  }
+ }
+
   .wrapper {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 300px;
   }
-  
   .move1 {
     height: 100vh;
-    color: rgb(228, 227, 245);
+    color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +29,8 @@ body {
     z-index: 0;
     font-size: 60px;
     background-image: url("assets/AivsHuman.jpg");
-    /* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fbernardmarr%2F2022%2F05%2F30%2Fhuman-vs-artificial-intelligence-why-finding-the-right-balance-is-key-to-success%2F&psig=AOvVaw0ZXkI6ie3PPz-_NyfjTvkp&ust=1676933579364000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLD4hM3Wov0CFQAAAAAdAAAAABAE"); */
+    /* background-image: -webkit-linear-gradient(center); */
   }
-  
   .totaldiv {
     position: relative;
     height: 100vh;
@@ -45,7 +39,6 @@ body {
     color: rgb(8, 35, 62);
     background-color: rgb(220, 232, 247);
   }
- 
   .middel {
     transform: translateZ(0);
     background-repeat: no-repeat;
@@ -57,6 +50,9 @@ body {
     align-items: center;
     color: rgb(54, 51, 51);
   }
+  #game .middel{
+    color: aliceblue;
+  }
   .topup {
     transform: translateZ(210px) scale(0.3);
     position: absolute;
@@ -65,16 +61,14 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .footer {
-    background-color: rgb(58, 56, 56);
+    background-color: rgb(68, 68, 74);
     font-size: 35px;
-    color: rgb(241, 230, 230);
+    color: rgb(245, 248, 248);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
   h3{
     display:fixed;
     text-align: center;
@@ -83,6 +77,9 @@ body {
     text-align: center;
   }
   .Chatgpt{
-    color: rgba(242, 213, 176, 0.609);
+    color: rgb(245, 248, 248);
+
   }
-  
+  #game{
+    color: aliceblue;
+  }
