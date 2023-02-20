@@ -1,95 +1,120 @@
-/* CSS reset */
+
 * {
-  padding: 0px;
-  border: 0px;
-  margin: 0px;
+    margin: 0; 
+    padding: 0;
 }
 
-@font-face {
-  font-family: all;
-  src: url(./print-clearly/print_clearly_tt.ttf);
 
+
+
+
+.parallax_wrapper {
+    height: 100vh;      
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 300px; }
+
+
+.intro_screen {
+    background-image: url(https://www.tech.gov.sg/images/technews/not-an-ai-expert-no-problem-part-1.png) ;
+    height: 600px; 
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
 }
 
-body {
-  font-family: all;
-  font-weight: bold;
-}
-
-.main_container {
-  background-image: url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
-  background-attachment: fixed;
-  height: fit-content;
-}
-
-.title {
-  background-image: url(https://www.tech.gov.sg/images/technews/not-an-ai-expert-no-problem-part-1.png);
-  height: 600px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-}
-
-.title h1 {
-  font-size: 20px;
+.intro_screen p {
+    font-size: 20px;
     font-weight: bold;
-  text-align: center;
-  padding-top: 233px;
-  padding-left: 42px;
+    text-align: center;
+    padding-top: 233px;
+    padding-left: 59px;
+    color: black;
 }
 
-.body {
-  margin-top: 50px;
-  perspective: 300px;
-  z-index: 0;
+.outro_screen {
+    height: 100vh;
+    margin-top: 200px;
+    margin-left: 500px;
 }
 
-.body1 {
-  border-radius: 12px;
-  background-color: silver;
-  margin-left: 40px;
-  margin-right: 40px;
-  height: 150px;
-  margin-bottom: 30px;
-  transform-style: preserve-3d;
-  transform: translateZ(0);
+.parallax_group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+    
 }
 
-.body1 p {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 65px;
+.parallax_layer {
+    position: absolute;
+    inset: 0;
 }
 
-.part-1 {
-  position: absolute;
-  inset: 0;
-  position: relative;
-  transform-style: preserve-3d;
-  height: 100vh;
+
+
+.base_layer {
+    /* scale calculations = 1 + [(Z transform value * -1 ) / perspective] */
+    transform: translateZ(-300px) scale(2);
+
+
 }
 
-.separator {
-  position: relative;
-  left: 325px;
-  margin-bottom: 100px;
+.base_layer p {
+    margin-top: 100px;
+    border-radius:12px; 
+    background-color: silver;
+    margin-left: 40px;
+    margin-right: 40px;
+    height:90px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
 }
 
-.body2 {
-  border-radius: 12px;
-  background-color: silver;
-  margin-left: 40px;
-  margin-right: 40px;
-  height: 150px;
-  margin-bottom: 30px;
-  transform-style: preserve-3d;
+
+.mid_layer {
+    margin-left: 384px;
+    margin-top: 700px;
+    transform: translateZ(0);
 }
 
-.body2 p {
-  font-size: 20px;
-  font-weight: 500px;
-  text-align: center;
-  padding-top: 65px;
+
+.top_layer {
+    margin-top: 500px;
+    transform: translateZ(200px) scale(0.3);
+
 }
+
+.top_layer p {
+    margin-top: 100px;
+    border-radius:12px; 
+    background-color: silver;
+    margin-left: 40px;
+    margin-right: 40px;
+    height:110px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.top_layer img {
+    margin-top: 600px;
+}
+
+
+
+#intro {
+    z-index: 0; 
+}
+
+#group-1 {
+    z-index: -1; 
+}
+
