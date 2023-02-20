@@ -4,18 +4,15 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
 @font-face {
   font-family: all;
   src: url(./print-clearly/print_clearly_tt.ttf);
 }
-
 body {
   font-family: all;
   font-weight: bold;
   font-size: 40px;
 }
-
 .container {
   height: 100vh;
   width: 100vw;
@@ -23,7 +20,6 @@ body {
   overflow-y: auto;
   perspective: 300px;
 }
-
 .para {
   height: 100vh;
   width: 100%;
@@ -35,7 +31,6 @@ body {
   transform-style: preserve-3d;
   /* scale = 1+((z*-1)/p) */
 }
-
 .stat {
   height: 100vh;
   width: 100%;
@@ -45,7 +40,6 @@ body {
   position: relative;
   transform-style: preserve-3d;
 }
-
 .back {
   position: absolute;
 
@@ -61,7 +55,6 @@ body {
   /* background-color: rgb(204, 58, 58); */
   color: rgb(0, 0, 0);
 }
-
 .fixed {
   position: absolute;
   padding: 0 25px;
@@ -76,7 +69,6 @@ body {
   background-color: rgb(43, 164, 180);
   color: black;
 }
-
 .front {
   padding: 0 25px;
   position: absolute;
@@ -91,7 +83,6 @@ body {
   background-color: rgb(0, 0, 0);
   color: aliceblue;
 }
-
 .field {
   width: fit-content;
   padding: 5px 10px;
@@ -103,7 +94,6 @@ body {
   /* background-color: rgb(0, 0, 0); */
   border-radius: 20px;
 }
-
 .intro {
   height: 100vh;
   width: 100%;

@@ -4,24 +4,20 @@
   border: 0;
   box-sizing: border-box;
 }
-
 @font-face {
   font-family: all;
   src: url(./print-clearly/print_clearly_tt.ttf);
 }
-
 body {
   font-family: all;
   font-weight: bold;
 }
-
 .wrapper {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 300px;
 }
-
 .first-screen {
   height: 100vh;
   color: rgb(255, 255, 255);
@@ -36,7 +32,6 @@ body {
   background-blend-mode: multiply;
   background-color: rgb(90, 90, 90);
 }
-
 .par1-1 {
   position: relative;
   height: 100vh;
