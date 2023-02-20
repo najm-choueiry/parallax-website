@@ -1,0 +1,82 @@
+@font-face {
+  font-family: all;
+  src: url(../assets/print-clearly/print_clearly_tt.ttf);
+}
+body {
+  font-family: all;
+  font-weight: bold;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 300px;
+}
+.move1 {
+  height: 100vh;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  font-size: 60px;
+  background-image: url("../assets/AivsHuman.jpg");
+}
+.totaldiv {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+  font-size: 60px;
+  color: rgb(8, 35, 62);
+  background-color: rgb(220, 232, 247);
+}
+.middel {
+  transform: translateZ(0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(54, 51, 51);
+}
+#game .middel {
+  color: aliceblue;
+}
+.topup {
+  transform: translateZ(210px) scale(0.3);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-color: rgb(68, 68, 74);
+  font-size: 35px;
+  color: rgb(245, 248, 248);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h3 {
+  display: fixed;
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+.Chatgpt {
+  color: rgb(245, 248, 248);
+}
+#game {
+  color: aliceblue;
+}

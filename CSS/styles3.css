@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: all;
+  src: url(../assets/print-clearly/print_clearly_tt.ttf);
+}
+.body {
+  background-image: url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+  background-attachment: fixed;
+  height: fit-content;
+  font-family: all;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.parallax_wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 300px;
+}
+
+.intro_screen {
+  background-image: url(https://www.tech.gov.sg/images/technews/not-an-ai-expert-no-problem-part-1.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro_screen p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 233px;
+  padding-left: 59px;
+  color: black;
+}
+
+.outro_screen {
+  height: 100vh;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+
+.parallax_group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.parallax_layer {
+  position: absolute;
+  inset: 0;
+}
+
+.base_layer {
+  /* scale calculations = 1 + [(Z transform value * -1 ) / perspective] */
+  transform: translateZ(-300px) scale(2);
+}
+
+.base_layer p {
+  margin-top: 100px;
+  border-radius: 12px;
+  background-color: silver;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 90px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+.mid_layer {
+  margin-left: 384px;
+  margin-top: 700px;
+  transform: translateZ(0);
+}
+
+.top_layer {
+  margin-top: 500px;
+  transform: translateZ(200px) scale(0.3);
+}
+
+.top_layer p {
+  margin-top: 100px;
+  border-radius: 12px;
+  background-color: silver;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 110px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+.top_layer img {
+  margin-top: 600px;
+}
+
+#intro {
+  z-index: 0;
+}
+
+#group-1 {
+  z-index: -1;
+}

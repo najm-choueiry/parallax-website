@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: all;
-  src: url(./print-clearly/print_clearly_tt.ttf);
+  src: url(../assets/print-clearly/print_clearly_tt.ttf);
 }
 body {
   font-family: all;
